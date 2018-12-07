@@ -42,6 +42,18 @@ main{
 		background-color: $baseColor;
 		color: $base1Color;
 	}
+
+    .skil li {
+    height: 300px;
+    width: 150px;
+    display: inline-block;
+  }
+    .skil li img {
+      margin-top: 50px;
+      height: 150px;
+      width: 150px;
+    }
+
 	.portfolio{
 		background-color: $base1Color;
         color: $baseColor;
