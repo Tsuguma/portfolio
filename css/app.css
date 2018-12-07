@@ -67,10 +67,10 @@ main {
     font-size: 50px; }
   main .skil {
     background-color: #fff;
-    color: #000; }
-  main .skil li {
+    color: #000;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; }
+  main .skil li {
     height: 300px;
     width: 150px;
     display: inline-block; }

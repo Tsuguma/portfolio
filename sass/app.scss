@@ -42,11 +42,11 @@ main{
 	.skil{
 		background-color: $baseColor;
 		color: $base1Color;
+    display: flex;
+    justify-content: space-between;
 	}
 
     .skil li {
-    display: flex;
-    justify-content: space-between;
     height: 300px;
     width: 150px;
     display: inline-block;
