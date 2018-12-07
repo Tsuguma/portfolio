@@ -34,6 +34,7 @@ header{
 main{
 	margin-top: 30px;
 	.introduce{
+		text-align: center;
 		background-color: $base1Color;
         color: $baseColor;
 		font-size: 50px;
@@ -44,7 +45,6 @@ main{
 	}
 
     .skil li {
-    height: 300px;
     width: 150px;
     display: inline-block;
   }
@@ -57,13 +57,10 @@ main{
 	.portfolio{
 		background-color: $base1Color;
         color: $baseColor;
-	    height: 200px;
 	}
 	.contact{
 		background-color: $baseColor;
 		color: $base1Color;
-		height: 200px;
-		background-color: #000;
 	}
 }
 footer{
@@ -73,7 +70,6 @@ footer{
 	padding: 5px 0;
 	border-top: 2px solid #fff;
 	box-sizing: border-box;
-
 	width: 100%;
 	.copyright{
 		text-align: right;
