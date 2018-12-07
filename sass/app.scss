@@ -1,4 +1,8 @@
 @import "foundation/_reset.scss";
+
+$baseColor:#fff;
+$base1Color:#000 ;
+
 header{
 	display: flex;
 	justify-content: space-between;
@@ -30,16 +34,22 @@ header{
 main{
 	margin-top: 30px;
 	.introduce{
+		background-color: $base1Color;
+        color: $baseColor;
 		font-size: 50px;
 	}
 	.skil{
-		background-color: #000;
-		color: #fff;
+		background-color: $baseColor;
+		color: $base1Color;
 	}
 	.portfolio{
+		background-color: $base1Color;
+        color: $baseColor;
 	    height: 200px;
 	}
 	.contact{
+		background-color: $baseColor;
+		color: $base1Color;
 		height: 200px;
 		background-color: #000;
 	}
