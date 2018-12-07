@@ -45,12 +45,13 @@ main{
 	}
 
     .skil li {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
     width: 150px;
     display: inline-block;
   }
     .skil li img {
-      display: flex;
-      justify-content: space-between;
       margin-top: 50px;
       height: 150px;
       width: 150px;
