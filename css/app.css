@@ -61,6 +61,7 @@ header {
 main {
   margin-top: 30px; }
   main .introduce {
+    text-align: center;
     background-color: #000;
     color: #fff;
     font-size: 50px; }
@@ -68,7 +69,6 @@ main {
     background-color: #fff;
     color: #000; }
   main .skil li {
-    height: 300px;
     width: 150px;
     display: inline-block; }
   main .skil li img {
@@ -77,13 +77,10 @@ main {
     width: 150px; }
   main .portfolio {
     background-color: #000;
-    color: #fff;
-    height: 200px; }
+    color: #fff; }
   main .contact {
     background-color: #fff;
-    color: #000;
-    height: 200px;
-    background-color: #000; }
+    color: #000; }
 
 footer {
   background-color: #000;
