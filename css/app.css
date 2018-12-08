@@ -88,22 +88,28 @@ main {
 .skillContainer {
   height: 1200px; }
 
+.textSkill {
+  display: inline-block;
+  vertical-align: middle;
+  width: 600px;
+  height: 380px;
+  box-shadow: 2px 2px 4px gray; }
+
 .swiper-container {
   height: 500px; }
 
 .picture img {
   width: 300px;
   height: 280px;
-  margin-top: 50px;
-  box-shadow: 2px 2px 4px gray; }
+  margin-top: 50px; }
 
 .picture {
   display: flex;
   justify-content: center;
   width: 600px;
   height: 380px;
-  margin-top: 50px;
-  box-shadow: 2px 2px 4px gray; }
+  box-shadow: 2px 2px 4px gray;
+  margin-left: 70px; }
 
 .left_wrap {
   float: left; }
