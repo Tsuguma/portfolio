@@ -6,6 +6,6 @@ $(function(){
     delay: 2000,
     disableOnInteraction: true,
   },
-  effect: 'fade',
+  effect: 'coverflow',
   })
 });

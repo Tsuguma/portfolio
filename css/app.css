@@ -85,38 +85,41 @@ main {
     background-color: #fff;
     color: #000; }
 
+.skillIntroduce {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: fantasy;
+  margin-top: 100px; }
+
 .skillContainer {
-  height: 1200px; }
+  height: 650px;
+  display: flex;
+  justify-content: center; }
 
 .textSkill {
-  display: inline-block;
-  vertical-align: middle;
-  width: 600px;
-  height: 380px;
-  box-shadow: 2px 2px 4px gray; }
-
-.swiper-container {
-  height: 500px; }
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight: bold;
+  display: flex;
+  width: 350px;
+  height: 350px;
+  margin-top: 50px;
+  margin-left: 150px;
+  box-shadow: 1px 2px 1px darkgray; }
 
 .picture img {
-  width: 300px;
-  height: 280px;
+  width: 250px;
+  height: 250px;
   margin-top: 50px; }
 
 .picture {
   display: flex;
   justify-content: center;
-  width: 600px;
-  height: 380px;
-  box-shadow: 2px 2px 4px gray;
-  margin-left: 70px; }
-
-.left_wrap {
-  float: left; }
-
-.right_wrap {
-  float: right;
-  margin-right: 70px; }
+  width: 350px;
+  height: 350px;
+  box-shadow: 1px 2px 1px darkgray;
+  margin-top: 50px; }
 
 footer {
   background-color: #000;
