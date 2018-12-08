@@ -28,7 +28,7 @@ header{
   			margin-right: 0;
   		}
   	}
-  }	
+  }
 }
 
 main{
@@ -66,6 +66,44 @@ main{
 		color: $base1Color;
 	}
 }
+
+// skill.html
+.skillContainer {
+  height: 1200px;
+}
+
+
+.swiper-container {
+  height: 500px;
+}
+
+.picture img {
+  width: 300px;
+  height: 280px;
+  margin-top: 50px;
+  box-shadow: 2px 2px 4px gray;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  height: 380px;
+  margin-top: 50px;
+  box-shadow: 2px 2px 4px gray;
+}
+
+.left_wrap {
+  float: left;
+}
+
+.right_wrap {
+  float: right;
+  margin-right: 70px;
+}
+
+// skill.htmlここまで
+
 footer{
 	background-color: #000;
 	color: #fff;
