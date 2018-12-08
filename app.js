@@ -1,10 +1,10 @@
 $(function(){
   let mySwiper = new Swiper('.swiper-container',{
-  direction: '',
+  direction: 'vertical',
   loop: true,
   autoplay: {
-    delay: 3000,
-    disableOnInteraction: true
+    delay: 2000,
+    disableOnInteraction: true,
   },
   effect: 'fade',
   })
