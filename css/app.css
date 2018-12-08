@@ -104,7 +104,7 @@ main {
   display: flex;
   width: 350px;
   height: 350px;
-  box-shadow: 1px 2px 1px darkgray;
+  box-shadow: 5px 5px 10px darkgray;
   border-radius: 50px;
   margin-top: 50px;
   margin-left: 150px; }
@@ -120,7 +120,7 @@ main {
   width: 350px;
   height: 350px;
   border-radius: 50px;
-  box-shadow: 1px 2px 1px darkgray;
+  box-shadow: 5px 5px 10px darkgray;
   margin-top: 50px; }
 
 footer {
