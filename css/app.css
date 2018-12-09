@@ -99,11 +99,11 @@ main {
 
 .textSkill {
   font-size: 20px;
+  width: 350px;
+  height: 350px;
   font-family: fantasy;
   font-weight: bold;
   display: flex;
-  width: 350px;
-  height: 350px;
   box-shadow: 5px 5px 10px darkgray;
   border-radius: 50px;
   margin-top: 50px;
@@ -134,7 +134,7 @@ main {
   transition: .5s;
   margin-top: -135px; }
 
-.btn:hover .active, .btn .active:hover .active {
+.btn :hover .active {
   opacity: 1; }
 
 .btn img, .btn .active img {

@@ -87,13 +87,22 @@ $takasa: 450px;
   justify-content: center;
 }
 
+// mixin使ってみた
+
+@mixin text($color: black, $font-size: 20px, $width: 350px, $height: 350px) {
+  font-size: $font-size;
+  width: $width;
+  height: $height;
+}
+
 .textSkill {
-  font-size: 20px;
+  @include text();
+  // font-size: 20px;
   font-family: fantasy;
   font-weight: bold;
   display: flex;
-  width: 350px;
-  height: 350px;
+  // width: 350px;
+  // height: 350px;
   box-shadow: 5px 5px 10px darkgray;
   border-radius: 50px;
   margin-top: 50px;
@@ -116,7 +125,7 @@ $takasa: 450px;
   margin-top: 50px;
 }
 
-
+// extend使ってみた
 .btn {
   display: flex;
   justify-content: center;
@@ -131,7 +140,7 @@ $takasa: 450px;
   margin-top: -135px;
 }
 
-.btn:hover .active {
+.btn :hover .active {
   opacity: 1;
 }
 
