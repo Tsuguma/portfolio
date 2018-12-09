@@ -120,16 +120,30 @@ $takasa: 450px;
 .btn {
   display: flex;
   justify-content: center;
+  position: relative;
+}
+
+.btn .active {
+  @extend .btn;
+  position: absolute;
+  opacity: 0;
+  transition: .5s;
+  margin-top: -135px;
+}
+
+.btn:hover .active {
+  opacity: 1;
 }
 
 .btn img {
-  border: 1px solid black;
+  border: 2px solid darkgray;
   border-radius: 50px;
   background-color: black;
   width: 100px;
   height:100px;
   margin-bottom: 30px;
 }
+
 
 // skill.htmlここまで
 
