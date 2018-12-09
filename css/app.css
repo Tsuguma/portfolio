@@ -123,12 +123,22 @@ main {
   box-shadow: 5px 5px 10px darkgray;
   margin-top: 50px; }
 
-.btn {
+.btn, .btn .active {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  position: relative; }
 
-.btn img {
-  border: 1px solid black;
+.btn .active {
+  position: absolute;
+  opacity: 0;
+  transition: .5s;
+  margin-top: -135px; }
+
+.btn:hover .active, .btn .active:hover .active {
+  opacity: 1; }
+
+.btn img, .btn .active img {
+  border: 2px solid darkgray;
   border-radius: 50px;
   background-color: black;
   width: 100px;
