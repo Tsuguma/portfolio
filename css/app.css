@@ -75,9 +75,9 @@ main {
     width: 150px;
     display: inline-block; }
   main .skil li img {
-    margin-top: 60px;
-    height: 150px;
-    width: 150px; }
+    margin-top: 80px;
+    height: 120px;
+    width: 120px; }
   main .portfolio {
     background-color: #000;
     color: #fff; }
