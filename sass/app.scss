@@ -70,7 +70,7 @@ main{
 // skill.html
 
 // 変数使ってみた
-$takasa: 650px;
+$takasa: 450px;
 
 
 .skillIntroduce {
@@ -114,6 +114,21 @@ $takasa: 650px;
   border-radius: 50px;
   box-shadow: 5px 5px 10px darkgray;
   margin-top: 50px;
+}
+
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn img {
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: black;
+  width: 100px;
+  height:100px;
+  margin-bottom: 30px;
 }
 
 // skill.htmlここまで

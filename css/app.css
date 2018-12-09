@@ -93,7 +93,7 @@ main {
   margin-top: 100px; }
 
 .skillContainer {
-  height: 650px;
+  height: 450px;
   display: flex;
   justify-content: center; }
 
@@ -122,6 +122,18 @@ main {
   border-radius: 50px;
   box-shadow: 5px 5px 10px darkgray;
   margin-top: 50px; }
+
+.btn {
+  display: flex;
+  justify-content: center; }
+
+.btn img {
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px; }
 
 footer {
   background-color: #000;
