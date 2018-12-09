@@ -140,7 +140,8 @@ $takasa: 450px;
   margin-top: -135px;
 }
 
-.btn :hover .active {
+// &使ってみた
+& :hover .active {
   opacity: 1;
 }
 
