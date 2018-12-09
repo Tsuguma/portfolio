@@ -68,6 +68,11 @@ main{
 }
 
 // skill.html
+
+// 変数使ってみた
+$takasa: 650px;
+
+
 .skillIntroduce {
   text-align: center;
   font-size: 50px;
@@ -77,7 +82,7 @@ main{
 }
 
 .skillContainer {
-  height: 650px;
+  height: $takasa;
   display: flex;
   justify-content: center;
 }
