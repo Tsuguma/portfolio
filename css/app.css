@@ -89,9 +89,50 @@ main {
       margin: 20px;
       height: 300px;
       width: 300px; }
-  main .contact {
-    background-color: #fff;
-    color: #000; }
+
+.contact {
+  display: flex;
+  justify-content: center;
+  margin-top: -5px;
+  padding-top: 10px;
+  background-color: #000;
+  color: #fff; }
+  .contact .form .title {
+    text-align: center;
+    margin: 30px;
+    font-size: 50px;
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff; }
+  .contact .form .name,
+  .contact .form .email {
+    font-size: 20px;
+    height: 80px;
+    width: 1000px;
+    box-sizing: border-box;
+    background-color: #ddd; }
+  .contact .form .gender {
+    font-size: 20px;
+    height: 80px;
+    width: 300px;
+    box-sizing: border-box; }
+  .contact .form .inquiry {
+    font-size: 20px;
+    height: 300px;
+    width: 1000px;
+    box-sizing: border-box; }
+  .contact .input, .contact button {
+    margin-top: 10px;
+    background-color: #ddd; }
+  .contact button {
+    height: 80px;
+    width: 1000px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border: 5px solid #777;
+    border-radius: 10px;
+    box-sizing: border-box; }
+  .contact .button {
+    text-align: center; }
 
 .skillIntroduce {
   text-align: center;
@@ -101,7 +142,7 @@ main {
   margin-top: 100px; }
 
 .skillContainer {
-  height: 450px;
+  height: 500px;
   display: flex;
   justify-content: center; }
 
@@ -135,15 +176,14 @@ main {
   display: flex;
   justify-content: center;
   position: relative; }
+  .btn:hover, .btn .active:hover {
+    opacity: 1; }
 
 .btn .active {
   position: absolute;
   opacity: 0;
   transition: .5s;
   margin-top: -135px; }
-
-.btn :hover .active {
-  opacity: 1; }
 
 .btn img, .btn .active img {
   border: 2px solid darkgray;
