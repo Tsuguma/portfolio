@@ -56,7 +56,6 @@ main{
       height: 120px;
       width: 120px;
     }
-
 	.portfolio{
 	    display: flex;
         flex-direction: column;
@@ -70,12 +69,66 @@ main{
         	width: 300px;
         }
 	}
-	.contact{
-		background-color: $baseColor;
-		color: $base1Color;
-	}
+
 
 }
+.contact{
+  display: flex;
+  justify-content: center;
+  margin-top: -5px;
+  padding-top: 10px;
+    background-color: $base1Color;
+  color: $baseColor;
+  .form .title{
+    text-align: center;
+    margin: 30px;
+    font-size: 50px;
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+
+  }
+  @mixin con( $font-size: 20px) {
+    font-size: $font-size;
+  }
+  .form .name,
+    .form .email{
+      @include con;
+      height: 80px;
+      width: 1000px;
+      box-sizing: border-box;
+      background-color: #ddd;
+    }
+    .form .gender{
+      @include con;
+      height: 80px;
+      width: 300px;
+      box-sizing: border-box;     
+    }
+    .form .inquiry{
+      @include con;
+      height: 300px;
+      width: 1000px;
+      box-sizing: border-box;    
+    }
+  .input{
+      margin-top: 10px;
+      background-color: #ddd;   
+  }
+  button{
+      @extend .input;
+      height: 80px;
+      width: 1000px;
+      margin-bottom: 10px;
+      font-size: 20px;
+        border: 5px solid #777;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+    .button{
+      text-align: center;
+    }
+}
+
 
 // skill.html
 
@@ -150,10 +203,10 @@ $takasa: 500px;
   margin-top: -135px;
 }
 
-// &使ってみた
-& :hover .active {
-  opacity: 1;
-}
+// // &使ってみた
+// & :hover .active {
+//   opacity: 1;
+// }
 
 .btn img {
   border: 2px solid darkgray;
