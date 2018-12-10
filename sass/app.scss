@@ -58,13 +58,23 @@ main{
     }
 
 	.portfolio{
-		background-color: $base1Color;
+	    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+	    background-color: $base1Color;
         color: $baseColor;
+        img{
+        	margin: 20px;
+        	height: 300px;
+        	width: 300px;
+        }
 	}
 	.contact{
 		background-color: $baseColor;
 		color: $base1Color;
 	}
+
 }
 
 // skill.html

@@ -79,8 +79,16 @@ main {
     height: 120px;
     width: 120px; }
   main .portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
     background-color: #000;
     color: #fff; }
+    main .portfolio img {
+      margin: 20px;
+      height: 300px;
+      width: 300px; }
   main .contact {
     background-color: #fff;
     color: #000; }
