@@ -140,6 +140,10 @@ $takasa: 500px;
   display: flex;
   justify-content: center;
   position: relative;
+    // &使ってみた
+  &:hover {
+    opacity: 1;
+  }
 }
 
 .btn .active {
@@ -150,10 +154,6 @@ $takasa: 500px;
   margin-top: -135px;
 }
 
-// &使ってみた
-& :hover .active {
-  opacity: 1;
-}
 
 .btn img {
   border: 2px solid darkgray;
